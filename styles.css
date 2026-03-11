@@ -46,42 +46,11 @@ header {
     align-items: center;
 }
 
-.logo-wordmark {
-    position: relative;
-    display: inline-flex;
-    align-items: flex-end;
-    line-height: 1;
-}
-
-/* Large decorative initial — mirrors Nathan Day's calligraphic D */
-.logo-initial {
-    font-family: 'Cormorant Garamond', serif;
-    font-style: italic;
-    font-weight: 700;
-    font-size: 108px;
-    line-height: 0.88;
-    letter-spacing: -4px;
-}
-
-/* Company name sits above esign, to the right of the D */
-.logo-name {
-    position: absolute;
-    top: 6px;
-    left: 62px;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 13px;
-    letter-spacing: 0.38em;
-    font-weight: 400;
-    white-space: nowrap;
-}
-
-/* Completes "Design" */
-.logo-esign {
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 300;
-    font-size: 76px;
-    line-height: 1;
-    padding-bottom: 5px;
+.logo-img {
+    max-width: 360px;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .tagline {
@@ -340,9 +309,7 @@ footer {
    ============================================= */
 
 @media (max-width: 768px) {
-    .logo-initial  { font-size: 78px; }
-    .logo-esign    { font-size: 55px; }
-    .logo-name     { font-size: 11px; top: 4px; left: 46px; letter-spacing: 0.28em; }
+    .logo-img      { max-width: 260px; }
     .tagline       { font-size: 12px; }
 
     nav a {
